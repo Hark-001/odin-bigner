@@ -94,13 +94,15 @@ padding: 16px 0;
     background-color: #E5e7eb;
     align-items: center;
     justify-content: center ;
-    /* padding: 100px; */
+    padding-top: 60px;
+    padding-bottom: 30px;
+    
     
 }
 .quotebox {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 1000px;
   
 }
 .quotext{
@@ -110,6 +112,7 @@ padding: 16px 0;
     font-weight: lighter;
     font-style: italic;
     margin-bottom: 0;
+    
 }
 .author{
     align-self: flex-end;
@@ -133,7 +136,7 @@ padding: 16px 0;
     justify-content: center;
     align-items: center;
     padding: 60px 0;
-    border-radius: 16px;
+    border-radius: 11px;
 }
 .signcontent{
     display: flex; 
@@ -161,7 +164,7 @@ color: #f9faf8;
     justify-content: center;
     color: #f9faf8;
     background-color: #1f2937;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 img {
