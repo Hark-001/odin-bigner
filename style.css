@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:'Roboto',sans-serif;
+    
+    margin: 0;
+}
+.hero {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #1f2937;
+   font-size: 18px; 
+   color: #f9faf8;}
+
+
+ul {
+    list-style-type:none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 35px;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px 0;
+}
+.subhero{
+    display: flex;
+    padding: 100px 0px;
+    width: 1200px;
+    gap: 100px
+    
+}
+.heropart{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+}
+.content {
+    text-align: center;
+   
+}
+.bigbox{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.info{
+    max-width: 165px;
+}
+
+
+.box{
+    width: 165px;
+    height: 165px;
+    /* background-color: green; */
+    border: 4px #3882f6;
+    border-radius: 15px;
+    border-style: solid;
+    
+
+}
+.randomhead {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.quote {
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #E5e7eb;
+    align-items: center;
+    justify-content: center ;
+    /* padding: 100px; */
+    
+}
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+  
+}
+.quotext{
+    
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.author{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-right: 60px;
+    
+
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+.signupbox {
+    display: flex;
+    background-color: #3882f6;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    border-radius: 16px;
+}
+.signcontent{
+    display: flex; 
+    gap: 130px;   
+}
+.signhead {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.signpara {
+color: #f9faf8;
+}
+.signcontent button {
+    color: #f9faf8;
+    border: 2px #f9faf8;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 0 40px;
+
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 20px 0;
+}
+
+img {
+    height: 200px;
+    width: 600px;
+    
+}
+button {
+    font-size: 18px;
+    color:#f9faf8 ;
+   background-color: #3882f6;
+    padding: 8px 30px;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 900;
+}
